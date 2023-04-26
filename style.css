@@ -1,0 +1,37 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* CSS Layout */
+.bai1 {
+    margin: 20px auto;
+    text-align: center;
+    width: 800px;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.bai1 h2 {
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.bai1 h2 strong {
+    color: #00aeef;
+    font-weight: 600;
+}
