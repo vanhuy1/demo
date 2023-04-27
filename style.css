@@ -35,3 +35,32 @@ body {
     color: #00aeef;
     font-weight: 600;
 }
+
+.lead-text {
+    margin-bottom: 40px;
+}
+
+.row {
+    text-align: center;
+}
+
+.row li {
+    display: inline;
+    margin: 0 12px;
+}
+
+.row li a {
+    background-color: #2d3032;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    height: 56px;
+    line-height: 56px;
+    min-width: 170px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.row li a:hover {
+    background-color: #00aeef;
+}
